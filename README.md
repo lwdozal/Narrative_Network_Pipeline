@@ -28,7 +28,7 @@ Some HTML knowledge
 
 ### Data Exploration (Clustering)
 
-## [Model Development](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/Step1_Pattern_Detection)
+## [Pattern Detection and Theme Building](https://github.com/lwdozal/Dissertation_AI_Workbench/tree/main/Step1_Pattern_Detection)
 
 ### Image Label and Caption Generation
 Training and fine-tuning on a subset of data to track performance, identify errors, and optimize models.\
