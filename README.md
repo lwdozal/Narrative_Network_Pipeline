@@ -3,7 +3,7 @@ MLOPs and LLMOPs for dissertation analysis workflow
 
 **Using Multimodal Sentiment Analysis for Knowledge Retrieval in Structured Graphs: Understanding Social Movement Messaging from a Collection of Topical Images**
 
-*Research Question: Can we identify a narrative from a collection of toipical images using computational methods?*
+*Research Question: Can we identify a narrative structure from a collection of toipical images using computational methods?*
 The use of computational methods on real world data to understand narrative messaging of social movements online as a way to monitor the social evolution of how a narrative can change over time, is seen across different mediums. The analysis models the communication messaging system of a social movement on a social media platform by building a narrative structure representative of the local semantics of image groups and an overall global summarization of the narrative structure as a whole.
 
 These quantitative findings are used in conjunction with a theoretical analysis of how the media has framed the anti-feminicide movement in Mexico since the 1990’s, and implements a review of the network’s local and global semantics creating narrative structure for the collection of topical images.
