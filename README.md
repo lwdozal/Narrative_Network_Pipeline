@@ -45,8 +45,10 @@ Evaluation Metrics:
 ##### Resources
 Hugging Face Access, Access to LLM, GPU Access
 
+## Pattern Refinenemt: Label and Description Generation (Multimodal and Multilingual LLMs)
+
 ### Identify Semantic similarities
-Get structured output from prompt engineering and hyperparameter tuning. 
+Get formatted output (JSON) from prompt engineering and hyperparameter tuning. 
 
 #### M-LLM Image to Text Generation (JSON Output), BERTSCORER and SentenceTransformer Evaluation
 **The second step** takes the images and runs them through foundational vision transformer models, along with generative Multimodal Large Language Models (M-LLMs) that generate two labels and a description of each of the images; and are compared and analyzed against each other using multi-label classification metrics along with HITL discourse analysis of the categorization process - M-LLMs include: BLIP-2, Qwen 2.5VL, Llama3, Llama4 Scout, and phi4.
@@ -67,7 +69,10 @@ PIL, Requests, pydantic, open-cv, os \
 langchain core and openai, \ -->
 
 
+## Pattern Confirmation: Image label and description Relationships 
+
 ### Network Structure
+identify the progression of the narrative by reviewing the structure of image label and description relationships. 
 
 #### Network Analysis and GNNs
 **The third step** uses the top labels created from the model with the best overall quantitative and HITL discourse evaluation metrics to build multiple graphs representing the various stages of semantics found within the image and its attributes. The graph is analyzed to identify structural patterns of the network using traditional centrality measures and modularity models (Leidan algorithm) to understand the semantic connections within and across the network. The overall graph structure is compared to benchmark datasets in a Graph Attention Network (GAT) model that uses a variational autoencoder (VAE) on the graph to compare classifications of the collected annotated image data.
