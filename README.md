@@ -45,7 +45,7 @@ Evaluation Metrics:
 ##### Resources
 Hugging Face Access, Access to LLM, GPU Access
 
-## Pattern Refinenemt: Label and Description Generation (Multimodal and Multilingual LLMs)
+## Label and Description Generation (Multimodal and Multilingual LLMs)
 
 ### Identify Semantic similarities
 Get formatted output (JSON) from prompt engineering and hyperparameter tuning. 
@@ -69,7 +69,7 @@ PIL, Requests, pydantic, open-cv, os \
 langchain core and openai, \ -->
 
 
-## Pattern Confirmation: Image label and description Relationships 
+## Image label and description Relationships 
 
 ### Network Structure
 identify the progression of the narrative by reviewing the structure of image label and description relationships. 
